@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Link to custom styles -->
+    <title>Al-Reem Mediterranean Restaurant</title>
+  </head>
+  <body>
+    <header class="text-white" style="background-color: #000000">
+      <div
+        class="mx-0 mx-md-5 d-flex justify-content-between align-items-center py-3"
+      >
+        <div class="logo">
+          <img
+            src="./assets/al-logo-02-01.png"
+            alt="Al-Reem Logo"
+            style="width: 150px"
+          />
+        </div>
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto gap-3">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Catering</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link order-button" href="#">Order Now</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="row align-items-center justify-content-between overlay">
+          <div class="row align-items-center">
+            <div class="col-4 mx-auto justify-content-center">
+              <img
+                class="hero-logo"
+                src="./assets/al-logo-01.png"
+                style="width: 100%"
+              />
+            </div>
+          </div>
+          <div class="col-12 justify-content-center mx-auto p-0">
+            Launching Soon!
+          </div>
+        </div>
+        <div style="position: relative; width: 100%; height: auto">
+          <video
+            autoplay
+            muted
+            loop
+            id="myVideo"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: auto;
+              z-index: -1;
+            "
+          >
+            <source src="./assets/burger.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

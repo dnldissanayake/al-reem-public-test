@@ -1,0 +1,49 @@
+/* coming-soon/styles.css */
+body {
+  background-color: #000000; /* Updated background color */
+  font-family: "Merriweather", serif;
+  font-weight: bold; /* Set Merriweather font */
+}
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+
+  font-size: 100px;
+  font-weight: bold;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    font-size: 40px;
+  }
+}
+
+body {
+  background-color: #000000; /* Updated background color */
+}
+
+.order-button {
+  background-color: #ffbc00; /* Updated button color */
+  color: white;
+  border-radius: 50px;
+}
+
+.hero-logo {
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .hero-logo {
+    width: 200px;
+  }
+}
